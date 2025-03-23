@@ -1,41 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
-.header{
-    
-    box-shadow: 10px 0 10px #817e7e ;
-    padding: 5px  30px; 
-    margin-top:7px ;
-    height: 40px;
-    background-color: #fff;
+.navbar {
+    margin-top: 7px;
+    padding: 10px 20px;
+    box-shadow: 10px 0 10px #757171;
 }
-.header .container-fluid .navbar-nav{
-    font-family: "Anton", serif;
+
+.navbar .container-fluid {
     display: flex;
     align-items: center;
-    font-weight: 500;
+    justify-content: space-between;
 }
-.header .container-fluid .navbar-nav img{
-    height: 30px;
-    width: 30px;
+
+.search-box .form-control {
+    height: 35px;
+    width: 12rem;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.logo-img {
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
 }
-/* .header .container-fluid .search-box{
-    position: relative;
-    display: inline-block;
-} */
-.header .container-fluid .search-box .form-control{
-    height: 30px;
-    width: 10rem;
-    border-radius: 5px;
-    border: 1px solid rgb(24, 19, 19);
-    margin-left: 20px;
+
+.dept-names {
+    font-family: "Anton", sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #090021;
+    font-weight: 550;
 }
-.contact .ml-auto .nav-item{
+/* .dept-names pre{
+    font-family: "Anton", sans-serif;
+    font-size: 18px;
+ 
+    color: #0e45fb;
+    font-weight: 550;
+} */
+
+
+.email-btn a{
     height: 30px;
-    width: 80px;
+    width: 90px;
+    font-weight: 800;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,17 +56,246 @@
     font-family: "Patua One", serif;
     font-size: 16px;
     color: #FFF;
+    text-decoration: none;
     background:rgb(37, 89, 152);
-
+}
+.email-btn a:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background: rgb(24, 56, 95);
 }
 
-.contact .linkedin, .contact .facebook, .contact .instagram{
+
+.linkedIn{
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #333;
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.instaGram{
+    font-size: 16px;
+    padding: 5px;
+    color: #000;
+    border: 2px solid #333;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.faceBook{
+     font-size: 16px;
+    padding: 5px;
+    border: 2px solid #333;
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;   
+}
+
+.linkedIn:hover {
+    cursor: pointer;
+   transform: scale(1.12);
+   color: #fff;
+   background-color: #342fc7;
+   border-color: #000000;
+}
+.instaGram:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+    color: rgb(249, 249, 249);
+    background:rgb(255, 35, 72);
+    border-color: #000000;
+}
+.faceBook:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+    color:#ffff;
+    background-color: #5832e1;
+    border-color:rgb(0, 0, 0) ;
+}
+
+.dateDetails {
+    height: auto;
+    width: 100%;
+    max-width: 25rem;
+    border-radius: 15px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 6px 4px 10px #757171;
+    background-color: rgb(187, 170, 170);
+    padding: 10px;
+    text-align: center;
+}
+
+.edition {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.edition img {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.login_sec {
+    box-shadow: 10px 0 10px #757171;
+}
+.login_sec .logSign .logIn{
+    border-radius: 10px;
+    background-color: rgb(13, 114, 134);
+    box-shadow: 0 10px 10px rgb(123, 161, 169);
+}
+.login_sec .logSign .signIn{
+    background-color: rgb(15, 28, 216);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(94, 112, 214);
+}
+.login_sec .logSign .logIn:hover{
+    cursor: pointer;
+    background-color: rgb(11, 67, 78);
+    box-shadow: 0 10px 10px  rgb(60, 76, 79);
+}
+.login_sec .logSign .signIn:hover{
+    cursor: pointer;
+    background-color: rgb(20, 27, 126);
+    box-shadow: 0 10px 10px rgb(104, 108, 157);
+}
+.login_sec .logSign .logIn a{
+    height: 20px;
+    color: #fff;
+  
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 25px;
-    width: 25px;
-    font-size: 13px;
+    text-decoration: none;
+}
+.login_sec .logSign .signIn a{
+    height: 20px;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.button_sec {
+    width: 99.1%;
+    box-shadow: 10px 0 10px #757171;
+    margin-top: 20px;
+    border: 1px solid #6e6a6a;
+    border-radius: 10px;
+}
+
+.button_sec .publication-item {
+    font-weight: 800;
+    width: auto;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    padding: 2px 17px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 5px;
+}
+
+.margin {
+    width: 100%;
+    height: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background: linear-gradient(to right, rgb(177, 14, 41), yellow, green, orange, rgb(206, 132, 144), blue);
+}
+
+.clg_logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+}
+
+.clg_logos .main_logo {
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
-    border: 2px solid rgb(36, 36, 36);
+}
+
+.clg_logos .cgec {
+    height: 50px;
+    width: auto;
+}
+
+
+@media (max-width: 768px) {
+    .dept-names {
+        font-size: 14px;
+    }
+
+    .search-box .form-control {
+        width: 8rem;
+    }
+
+    .logo-img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .dateDetails {
+        font-size: 12px;
+    }
+
+    .clg_logos .main_logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .clg_logos .cgec {
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dept-names {
+        font-size: 12px;
+    }
+
+    .search-box .form-control {
+        width: 6rem;
+    }
+
+    .email-btn {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    .social-icon {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .dateDetails {
+        font-size: 10px;
+    }
+
+    .clg_logos .main_logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .clg_logos .cgec {
+        height: 30px;
+    }
+
+    .button_sec .publication-item {
+        min-width: 80px;
+        font-size: 12px;
+    }
 }
