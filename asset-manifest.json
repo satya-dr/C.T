@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/cgectimes/static/css/main.a6e4d399.chunk.css",
+    "main.js": "/cgectimes/static/js/main.9b00ed63.chunk.js",
+    "main.js.map": "/cgectimes/static/js/main.9b00ed63.chunk.js.map",
+    "runtime~main.js": "/cgectimes/static/js/runtime~main.66744d0d.js",
+    "runtime~main.js.map": "/cgectimes/static/js/runtime~main.66744d0d.js.map",
+    "static/js/2.e0e1ae4f.chunk.js": "/cgectimes/static/js/2.e0e1ae4f.chunk.js",
+    "static/js/2.e0e1ae4f.chunk.js.map": "/cgectimes/static/js/2.e0e1ae4f.chunk.js.map",
+    "static/js/3.bd0f349a.chunk.js": "/cgectimes/static/js/3.bd0f349a.chunk.js",
+    "static/js/3.bd0f349a.chunk.js.map": "/cgectimes/static/js/3.bd0f349a.chunk.js.map",
+    "index.html": "/cgectimes/index.html",
+    "precache-manifest.b651f6e3bfc8739aa0e3c9ddf21bb88b.js": "/cgectimes/precache-manifest.b651f6e3bfc8739aa0e3c9ddf21bb88b.js",
+    "service-worker.js": "/cgectimes/service-worker.js",
+    "static/css/main.a6e4d399.chunk.css.map": "/cgectimes/static/css/main.a6e4d399.chunk.css.map",
+    "static/media/NO1.jpg": "/cgectimes/static/media/NO1.a40fdbf0.jpg",
+    "static/media/NO2.jpg": "/cgectimes/static/media/NO2.0bc1e549.jpg",
+    "static/media/NO3.jpg": "/cgectimes/static/media/NO3.c1fc0fe5.jpg",
+    "static/media/art1.jpg": "/cgectimes/static/media/art1.d0e2ba2a.jpg",
+    "static/media/art2.jpg": "/cgectimes/static/media/art2.588aacb2.jpg",
+    "static/media/art3.jpg": "/cgectimes/static/media/art3.c05b5d1b.jpg",
+    "static/media/art4.jpg": "/cgectimes/static/media/art4.005ad172.jpg",
+    "static/media/art5.jpg": "/cgectimes/static/media/art5.b395d33e.jpg",
+    "static/media/art6.jpg": "/cgectimes/static/media/art6.65b2b8cb.jpg",
+    "static/media/cgec_acdemic.jpeg": "/cgectimes/static/media/cgec_acdemic.1f7369ce.jpeg",
+    "static/media/cgectimes.png": "/cgectimes/static/media/cgectimes.e394d697.png",
+    "static/media/clgLogo.png": "/cgectimes/static/media/clgLogo.a3fdaa39.png",
+    "static/media/india.png": "/cgectimes/static/media/india.607b9f69.png"
+  }
+}
